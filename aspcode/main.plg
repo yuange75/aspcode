@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1.GUE\LOCALS~1\Temp\RSP64.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\T2306\aspcode\main.c"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1.GUE\LOCALS~1\Temp\RSP64.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1.GUE\LOCALS~1\Temp\RSP65.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main.pdb" /debug /machine:I386 /out:"Debug/main.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1.GUE\LOCALS~1\Temp\RSP65.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.c
+c:\t2306\include\inout.c(30) : warning C4047: 'initializing' : 'int *' differs in levels of indirection from 'const char ** '
+c:\t2306\include\getvar.c(30) : warning C4018: '<' : signed/unsigned mismatch
+c:\t2306\include\sendrecv.c(32) : warning C4047: '=' : 'int ' differs in levels of indirection from 'char *'
+c:\t2306\include\sendrecv.c(33) : warning C4022: 'memcpy' : pointer mismatch for actual parameter 1
+c:\t2306\include\over.c(8) : warning C4013: 'GetOverStr' undefined; assuming extern returning int
+c:\t2306\include\getshellcode.c(12) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'void (__cdecl *)()'
+c:\t2306\include\getshellcode.c(12) : warning C4024: 'getfnaddress' : different types for formal and actual parameter 1
+c:\t2306\include\getshellcode.c(22) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'void (__cdecl *)()'
+c:\t2306\include\getshellcode.c(22) : warning C4024: 'getfnaddress' : different types for formal and actual parameter 1
+c:\t2306\include\getshellcode.c(34) : warning C4013: '_chkesp' undefined; assuming extern returning int
+c:\t2306\include\getshellcode.c(35) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'int (__cdecl *)()'
+c:\t2306\include\getshellcode.c(35) : warning C4024: 'getfnaddress' : different types for formal and actual parameter 1
+c:\t2306\include\getshellcode.c(10) : warning C4101: 'j' : unreferenced local variable
+c:\t2306\include\getshellcode.c(54) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'void (__cdecl *)()'
+c:\t2306\include\getshellcode.c(54) : warning C4024: 'getfnaddress' : different types for formal and actual parameter 1
+c:\t2306\include\getshellcode.c(64) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'void (__cdecl *)(char *)'
+c:\t2306\include\getshellcode.c(64) : warning C4024: 'getfnaddress' : different types for formal and actual parameter 1
+c:\t2306\include\getshellcode.c(77) : warning C4047: 'function' : 'char *' differs in levels of indirection from 'int (__cdecl *)()'
+c:\t2306\include\getshellcode.c(77) : warning C4024: 'getfnaddress' : different types for formal and actual parameter 1
+c:\t2306\include\getshellcode.c(109) : warning C4305: '=' : truncation from 'const int ' to 'char '
+c:\t2306\aspcode\shellcode.c(96) : warning C4047: '=' : 'char *' differs in levels of indirection from 'const unsigned int '
+c:\t2306\aspcode\shellcode.c(115) : warning C4047: '==' : 'int ' differs in levels of indirection from 'int *'
+c:\t2306\aspcode\shellcode.c(156) : warning C4102: 'execptprogram' : unreferenced label
+c:\t2306\aspcode\shellcode.c(219) : warning C4047: 'initializing' : 'int (__stdcall *)()' differs in levels of indirection from 'char *'
+c:\t2306\aspcode\shellcode.c(244) : warning C4047: '=' : 'int *' differs in levels of indirection from 'const unsigned int '
+c:\t2306\aspcode\shellcode.c(245) : warning C4133: '=' : incompatible types - from 'char *' to 'int *'
+c:\t2306\aspcode\shellcode.c(258) : warning C4047: '=' : 'void *' differs in levels of indirection from 'int '
+c:\t2306\aspcode\shellcode.c(266) : warning C4047: '=' : 'int (__stdcall *)()' differs in levels of indirection from 'int '
+c:\t2306\aspcode\shellcode.c(278) : warning C4047: '=' : 'int ' differs in levels of indirection from 'char *'
+c:\t2306\aspcode\shellcode.c(281) : warning C4047: '=' : 'void *' differs in levels of indirection from 'int '
+c:\t2306\aspcode\shellcode.c(282) : warning C4047: '=' : 'int (__stdcall *)()' differs in levels of indirection from 'int '
+c:\t2306\aspcode\shellcode.c(289) : warning C4047: '=' : 'int ' differs in levels of indirection from 'int (__stdcall *)()'
+c:\t2306\aspcode\shellcode.c(292) : warning C4047: '=' : 'int ' differs in levels of indirection from 'char *'
+c:\t2306\aspcode\shellcode.c(293) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+c:\t2306\aspcode\shellcode.c(315) : warning C4047: '=' : 'int ' differs in levels of indirection from 'int (__stdcall *)()'
+c:\t2306\aspcode\shellcode.c(316) : warning C4047: '=' : 'int ' differs in levels of indirection from 'int (__stdcall *)()'
+c:\t2306\aspcode\shellcode.c(321) : warning C4047: '=' : 'int ' differs in levels of indirection from 'char *'
+c:\t2306\aspcode\shellcode.c(323) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+c:\t2306\aspcode\shellcode.c(329) : warning C4047: '==' : 'int ' differs in levels of indirection from 'int *'
+c:\t2306\aspcode\shellcode.c(346) : warning C4047: '==' : 'int ' differs in levels of indirection from 'int (__stdcall *)()'
+c:\t2306\aspcode\shellcode.c(347) : warning C4047: '=' : 'int ' differs in levels of indirection from 'char *'
+c:\t2306\aspcode\shellcode.c(358) : warning C4047: '=' : 'int (__stdcall *)()' differs in levels of indirection from 'int '
+c:\t2306\aspcode\shellcode.c(359) : warning C4047: '=' : 'int (__stdcall *)()' differs in levels of indirection from 'int '
+c:\t2306\aspcode\shellcode.c(360) : warning C4047: '=' : 'void *' differs in levels of indirection from 'int '
+c:\t2306\aspcode\shellcode.c(362) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+c:\t2306\aspcode\shellcode.c(703) : warning C4102: 'execptprogram' : unreferenced label
+c:\t2306\aspcode\shellcode.c(195) : warning C4101: 'msvcrtdlladd' : unreferenced local variable
+c:\t2306\aspcode\shellcode.c(194) : warning C4101: 'memcpyadd' : unreferenced local variable
+c:\t2306\aspcode\shellcode.c(200) : warning C4101: 'Ntdlladd' : unreferenced local variable
+c:\t2306\aspcode\shellcode.c(197) : warning C4101: 'Aspdlladd' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+main.exe - 0 error(s), 50 warning(s)
+</pre>
+</body>
+</html>
